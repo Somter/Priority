@@ -38,7 +38,7 @@ DWORD WINAPI Thread1(LPVOID lp)
 		{
 			TCHAR str[50];
 			wsprintf(str, TEXT("%d"), i);
-			SendMessage(hList, LB_ADDSTRING, 0, LPARAM(str));
+			SendMessage(hList, LB_ADDSTRING, 0, LPARAM(str));	
 		}
 		Sleep(100);
 	}
